@@ -28,7 +28,6 @@ for i in d.keys():
     result = np.intersect1d(one_arr, two_arr)
     all_results.extend(result)
 
-
 # создаем excel файл
 data_frame = pd.DataFrame(all_results, columns=['При одновременных авариях по обоим напрвлениям пострадают заказы:'])
 excel_file = 'exl/по_обоим_напрвлениям_пострадают.xlsx'
